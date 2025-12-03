@@ -1,0 +1,23 @@
+{
+  "name": "sha1-hulud-checker",
+  "version": "1.0.0",
+  "description": "Scan lockfiles for packages affected by SHA1 vulnerabilities",
+  "type": "module",
+  "main": "scan-lockfiles.js",
+  "bin": {
+    "sha1-hulud-checker": "./scan-lockfiles.js"
+  },
+  "scripts": {
+    "scan": "node scan-lockfiles.js",
+    "scan:all": "node scan-lockfiles.js ./locks",
+    "generate:affected-locks": "node generate-infected-lockfiles.js"
+  },
+  "keywords": [
+    "security",
+    "sha1",
+    "lockfile",
+    "scanner"
+  ],
+  "license": "MIT"
+}
+
