@@ -75,6 +75,9 @@ npm run scan
 
 # Scan all lockfiles in ./locks
 npm run scan:all
+
+# Generate test lockfiles with injected vulnerable packages
+npm run generate:affected-locks
 ```
 
 ### JSON Output (CI/CD Integration)
