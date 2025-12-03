@@ -6,7 +6,8 @@ A fast, zero-dependency scanner that detects npm packages affected by SHA1 colli
 
 ## 🚨 What is this about?
 
-A significant number of npm packages have been identified as potentially vulnerable due to SHA1 collision attacks. This tool scans your project's lockfiles to detect if any of these affected package versions are present in your dependency tree.
+In November 2025, a large set of npm package versions was identified as potentially compromised or at risk due to SHA1 collision vulnerabilities, as described in [this blog post by HelixGuard AI](https://helixguard.ai/blog/malicious-sha1hulud-2025-11-24). This tool scans your project's lockfiles and alerts you if any affected package versions are present in your dependency tree.
+
 
 ## ✨ Features
 
@@ -22,8 +23,8 @@ A significant number of npm packages have been identified as potentially vulnera
 |----------------|----------|
 | npm | `package-lock.json`, `npm-shrinkwrap.json` |
 | pnpm | `pnpm-lock.yaml` |
-| yarn | `yarn.lock` |
-| bun | `bun.lockb`, `bun.lock` |
+| yarn | `yarn.lock` (untested) |
+| bun | `bun.lockb` (untested), `bun.lock` (untested) |
 
 ## 🚀 Quick Start
 
@@ -192,6 +193,17 @@ To update, replace or append to this file with newly identified packages.
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit issues and pull requests.
+
+## DISCLAIMER
+
+This tool is provided for informational purposes only. The authors and contributors of this tool are not responsible for any damage or loss caused by the use of this tool.
+
+By using this tool, you agree to the following terms:
+
+- You are responsible for your own security and privacy.
+- You are responsible for your own code and dependencies.
+- You are responsible for your own decisions.
+- You are responsible for your own actions.
 
 ## 📄 License
 
