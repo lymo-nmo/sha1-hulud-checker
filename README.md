@@ -21,7 +21,7 @@ In November 2025, a large set of npm package versions was identified as potentia
 
 | Package Manager | Lockfile |
 |----------------|----------|
-| npm | `package-lock.json`, `npm-shrinkwrap.json` |
+| npm | `package-lock.json`, `npm-shrinkwrap.json` (untested) |
 | pnpm | `pnpm-lock.yaml` |
 | yarn | `yarn.lock` (untested) |
 | bun | `bun.lockb` (untested), `bun.lock` (untested) |
